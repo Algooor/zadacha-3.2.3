@@ -5,7 +5,7 @@ const val DISCOUNT_END = 10_000U
 const val MUSIC_LOVER = true
 
 fun main() {
-print("Введите количество композиций: ")
+    print("Введите количество композиций: ")
     val itemCount = readLine()?.toUInt() ?: return
 
     val totalPrice = ITEM_PRICE * itemCount
